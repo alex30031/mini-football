@@ -1,0 +1,40 @@
+.two-player-button, .single-player-button {
+    text-align: center;
+    margin-top: 50px;
+}
+body, html {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.start-game {
+    text-align: center;
+    margin-top: 50px;  
+}
+.two-player-button, .single-player-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.two-player-button:hover, .single-player-button:hover {
+    background-color: #0056b3;
+}
+.two-player-button:focus, .single-player-button:focus {
+    outline: none;
+}
+.two-player-button:active, .single-player-button:active {
+    background-color: #004085;
+}
+.two-player-button, .single-player-button {
+    margin: 10px;
+    display: inline-block;
+}
+.two-player-button, .single-player-button {
+    text-decoration: none;
+    color: white;
+}
